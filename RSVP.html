@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/RSVP.css">
+</head>
+<body>
+     <header>
+        <h1 class="one">RSVP</h1>
+        <p>We thank you in advance</p>
+        <p>Kindly reply before the 17th of September</p>
+        <hr>
+     </header>
+     <form method="get">
+         <p>Name</p>
+         <p><input type="text" required size="45"></p>
+         <p>Email</p>
+         <p><input type="email" required size="45"></p>
+        <p>Will you be bring a +1</p>
+         <p>
+            <input type="radio" name="atd" id="Yes">
+            <label for="Yes">Yes</label>
+         </p>
+         <p>
+            <input type="radio" name="atd" id="No">
+            <label for="No">No</label>
+         </p>
+         <p>
+            <p><label for="gift">Gift type:</label></p>
+            <p><input type="text" id="gift" list="gift-type" size="45"></p>
+            <datalist id="gift-type">
+               <option value="Jewelry">
+               <option value="Clothing">
+               <option value="Housewares">
+               <option value="Electronics">
+               <option value="Other">
+            </datalist>
+         </p>
+         <h1>choice of entree</h1>
+         <p>
+            <input type="radio" name="entree" id="steak">
+            <label for="steak"><img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/ancho-steak-chimichurri-buttered-sweetcorn-083014f.jpg" title="steak with side of wedges and salad" class="rad" width="80" height="80" alt="">Steak</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="entree" id="fish">
+            <label for="fish"><img src="https://img.taste.com.au/pUWqjn9Q/taste/2016/11/chargrilled-fish-with-green-chilli-coriander-and-coconut-relish-70446-1.jpeg" title="Fried Fish with a side of vegetables" class="rad" width="80" height="80" alt="">Fish</label>
+         </p>
+         <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="entree" id="chicken">
+            <label for="chicken"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/chicken-dinner-recipes-1650896150.jpeg?crop=1.00xw:0.802xh;0,0.0900xh&resize=640:*" title="Chicken and Pasta" class="rad" width="80" height="80" alt="">Chicken</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="entree" id="Vegetarian">
+            <label for="Vegetarian"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-210519-chillimac-04-landscape-jg-1623708475.jpg?crop=0.522xw:0.784xh;0.151xw,0.0962xh&resize=640:*" class="rad" title="Fettuccine Pasta with vegetables" width="80" height="80" alt="">Vegetarian</label>
+         </p>
+            <p><button type="submit">Submit</button></p>
+            <p><button type="HomePage"> <a href="Home.html">HomePage</a></button></p>
+     </form>
+     
+</body>
+</html>
